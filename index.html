@@ -1,11 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>brancht</title>
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ceramic</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    
+    <section class="hero-back p-4 min-vh-100 ">
+        <div class="container">
+            <nav class="py-20 fixed bg-white p-16 br-30">
+                <div class="d-flex align-items-center justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <a href=""><img src="assets/images/logo.png" alt="logo" class="w-100"></a>
+
+                    </div>
+                    <input type="checkbox" id="menubar" hidden>
+                    <label for="menubar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+
+                    <ul class="d-flex align-items-center list-unstyled gap-28 mobile-view pt-13  ">
+                        <li><a href="" class="navlink text_sm">Home</a></li>
+                        <li><a href="" class="navlink text_sm">About</a></li>
+                        <li><a href="" class="navlink text_sm">Services</a></li>
+                        <li><a href="" class="navlink text_sm">Portfolio</a></li>
+                        <li><a href="" class="navlink text_sm">Contact us</a></li>
+                        <li><a href="" class="navlink text_sm">Request a Qoute</a></li>
+                        <a href="tel:+(865) 621-1717" class="tel ml-100 text_sm"><svg width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.05 14.95L9.2 16.8C8.81 17.19 8.19 17.19 7.79 16.81C7.68 16.7 7.57 16.6 7.46 16.49C6.43 15.45 5.5 14.36 4.67 13.22C3.85 12.08 3.19 10.94 2.71 9.81C2.24 8.67 2 7.58 2 6.54C2 5.86 2.12 5.21 2.36 4.61C2.6 4 2.98 3.44 3.51 2.94C4.15 2.31 4.85 2 5.59 2C5.87 2 6.15 2.06 6.4 2.18C6.66 2.3 6.89 2.48 7.07 2.74L9.39 6.01C9.57 6.26 9.7 6.49 9.79 6.71C9.88 6.92 9.93 7.13 9.93 7.32C9.93 7.56 9.86 7.8 9.72 8.03C9.59 8.26 9.4 8.5 9.16 8.74L8.4 9.53C8.29 9.64 8.24 9.77 8.24 9.93C8.24 10.01 8.25 10.08 8.27 10.16C8.3 10.24 8.33 10.3 8.35 10.36C8.53 10.69 8.84 11.12 9.28 11.64C9.73 12.16 10.21 12.69 10.73 13.22C10.83 13.32 10.94 13.42 11.04 13.52C11.44 13.91 11.45 14.55 11.05 14.95Z"
+                                    fill="white" />
+                                <path
+                                    d="M21.9696 18.33C21.9696 18.61 21.9196 18.9 21.8196 19.18C21.7896 19.26 21.7596 19.34 21.7196 19.42C21.5496 19.78 21.3296 20.12 21.0396 20.44C20.5496 20.98 20.0096 21.37 19.3996 21.62C19.3896 21.62 19.3796 21.63 19.3696 21.63C18.7796 21.87 18.1396 22 17.4496 22C16.4296 22 15.3396 21.76 14.1896 21.27C13.0396 20.78 11.8896 20.12 10.7496 19.29C10.3596 19 9.96961 18.71 9.59961 18.4L12.8696 15.13C13.1496 15.34 13.3996 15.5 13.6096 15.61C13.6596 15.63 13.7196 15.66 13.7896 15.69C13.8696 15.72 13.9496 15.73 14.0396 15.73C14.2096 15.73 14.3396 15.67 14.4496 15.56L15.2096 14.81C15.4596 14.56 15.6996 14.37 15.9296 14.25C16.1596 14.11 16.3896 14.04 16.6396 14.04C16.8296 14.04 17.0296 14.08 17.2496 14.17C17.4696 14.26 17.6996 14.39 17.9496 14.56L21.2596 16.91C21.5196 17.09 21.6996 17.3 21.8096 17.55C21.9096 17.8 21.9696 18.05 21.9696 18.33Z"
+                                    fill="white" />
+                            </svg>
+                            (865) 621-1717</a>
+                    </ul>
+
+
+                </div>
+
+            </nav>
+            <div class="py-72">
+                <h1 class="hero-heading text_xl">Transform Your Space with Precision and Quality:
+                    Get a Free Quote Today!</h1>
+                <p class="hero-text text_md">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
+                    primasofi dede
+                    facebooka: förutom tivaligt. Fejkade
+                    nyheter eurosamma sol: teroktig,</p>
+                <button class="herobtn text_md">Get a Quote</button>
+            </div>
+            <div class="d-flex gap-24 review">
+                <div class=" d-flex white-Card">
+                    <img src="assets/images/google.png" alt="google" class="google">
+                    <div class=" pl-10">
+                        <p class="hero-rating text_xxs">Google Review</p>
+                        <p class="hero-review text_2md">4.6<svg width="84" height="18" viewBox="0 0 84 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.54078 2.93872C7.79024 2.17096 8.87642 2.17096 9.12588 2.93872L10.0172 5.68188C10.1287 6.02524 10.4487 6.2577 10.8097 6.2577H13.6941C14.5013 6.2577 14.837 7.29072 14.1839 7.76522L11.8504 9.46059C11.5583 9.67279 11.4361 10.0489 11.5477 10.3923L12.439 13.1354C12.6885 13.9032 11.8097 14.5416 11.1566 14.0671L8.82315 12.3718C8.53108 12.1596 8.13558 12.1596 7.84351 12.3718L5.51004 14.0671C4.85694 14.5416 3.97821 13.9032 4.22767 13.1354L5.11898 10.3923C5.23054 10.0489 5.10832 9.67279 4.81625 9.46059L2.48278 7.76522C1.82968 7.29072 2.16533 6.2577 2.9726 6.2577H5.85693C6.21795 6.2577 6.53791 6.02524 6.64948 5.68188L7.54078 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M24.2068 2.93872C24.4563 2.17096 25.5424 2.17096 25.7919 2.93872L26.6832 5.68188C26.7948 6.02524 27.1147 6.2577 27.4757 6.2577H30.3601C31.1674 6.2577 31.503 7.29072 30.8499 7.76522L28.5164 9.46059C28.2244 9.67279 28.1021 10.0489 28.2137 10.3923L29.105 13.1354C29.3545 13.9032 28.4757 14.5416 27.8226 14.0671L25.4892 12.3718C25.1971 12.1596 24.8016 12.1596 24.5095 12.3718L22.1761 14.0671C21.523 14.5416 20.6442 13.9032 20.8937 13.1354L21.785 10.3923C21.8966 10.0489 21.7743 9.67279 21.4823 9.46059L19.1488 7.76522C18.4957 7.29072 18.8313 6.2577 19.6386 6.2577H22.5229C22.884 6.2577 23.2039 6.02524 23.3155 5.68188L24.2068 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M40.8748 2.93872C41.1242 2.17096 42.2104 2.17096 42.4599 2.93872L43.3512 5.68188C43.4627 6.02524 43.7827 6.2577 44.1437 6.2577H47.028C47.8353 6.2577 48.171 7.29072 47.5179 7.76522L45.1844 9.46059C44.8923 9.67279 44.7701 10.0489 44.8817 10.3923L45.773 13.1354C46.0224 13.9032 45.1437 14.5416 44.4906 14.0671L42.1571 12.3718C41.8651 12.1596 41.4696 12.1596 41.1775 12.3718L38.844 14.0671C38.1909 14.5416 37.3122 13.9032 37.5617 13.1354L38.453 10.3923C38.5645 10.0489 38.4423 9.67279 38.1502 9.46059L35.8168 7.76522C35.1637 7.29072 35.4993 6.2577 36.3066 6.2577H39.1909C39.5519 6.2577 39.8719 6.02524 39.9835 5.68188L40.8748 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M57.5408 2.93872C57.7902 2.17096 58.8764 2.17096 59.1259 2.93872L60.0172 5.68188C60.1287 6.02524 60.4487 6.2577 60.8097 6.2577H63.6941C64.5013 6.2577 64.837 7.29072 64.1839 7.76522L61.8504 9.46059C61.5583 9.67279 61.4361 10.0489 61.5477 10.3923L62.439 13.1354C62.6885 13.9032 61.8097 14.5416 61.1566 14.0671L58.8232 12.3718C58.5311 12.1596 58.1356 12.1596 57.8435 12.3718L55.51 14.0671C54.8569 14.5416 53.9782 13.9032 54.2277 13.1354L55.119 10.3923C55.2305 10.0489 55.1083 9.67279 54.8163 9.46059L52.4828 7.76522C51.8297 7.29072 52.1653 6.2577 52.9726 6.2577H55.8569C56.218 6.2577 56.5379 6.02524 56.6495 5.68188L57.5408 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M74.2068 2.93872C74.4563 2.17096 75.5424 2.17096 75.7919 2.93872L76.6832 5.68188C76.7948 6.02524 77.1147 6.2577 77.4757 6.2577H80.3601C81.1674 6.2577 81.503 7.29072 80.8499 7.76522L78.5164 9.46059C78.2244 9.67279 78.1021 10.0489 78.2137 10.3923L79.105 13.1354C79.3545 13.9032 78.4757 14.5416 77.8226 14.0671L75.4892 12.3718C75.1971 12.1596 74.8016 12.1596 74.5095 12.3718L72.1761 14.0671C71.523 14.5416 70.6442 13.9032 70.8937 13.1354L71.785 10.3923C71.8966 10.0489 71.7743 9.67279 71.4823 9.46059L69.1488 7.76522C68.4957 7.29072 68.8313 6.2577 69.6386 6.2577H72.5229C72.884 6.2577 73.2039 6.02524 73.3155 5.68188L74.2068 2.93872Z"
+                                    fill="#FCB547" />
+                            </svg>
+                        </p>
+                        <p class="hero-rating text_xxs">Based on 145 reviews</p>
+                    </div>
+                </div>
+                <div class=" d-flex white-Card">
+                    <img src="assets/images/star.png" alt="google" class="star">
+                    <div class="flex-column pl-20">
+                        <p class="hero-rating text_xxs">Trust Pilot Review</p>
+                        <p class="hero-review text_2md">4.6<svg width="84" height="18" viewBox="0 0 84 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.54078 2.93872C7.79024 2.17096 8.87642 2.17096 9.12588 2.93872L10.0172 5.68188C10.1287 6.02524 10.4487 6.2577 10.8097 6.2577H13.6941C14.5013 6.2577 14.837 7.29072 14.1839 7.76522L11.8504 9.46059C11.5583 9.67279 11.4361 10.0489 11.5477 10.3923L12.439 13.1354C12.6885 13.9032 11.8097 14.5416 11.1566 14.0671L8.82315 12.3718C8.53108 12.1596 8.13558 12.1596 7.84351 12.3718L5.51004 14.0671C4.85694 14.5416 3.97821 13.9032 4.22767 13.1354L5.11898 10.3923C5.23054 10.0489 5.10832 9.67279 4.81625 9.46059L2.48278 7.76522C1.82968 7.29072 2.16533 6.2577 2.9726 6.2577H5.85693C6.21795 6.2577 6.53791 6.02524 6.64948 5.68188L7.54078 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M24.2068 2.93872C24.4563 2.17096 25.5424 2.17096 25.7919 2.93872L26.6832 5.68188C26.7948 6.02524 27.1147 6.2577 27.4757 6.2577H30.3601C31.1674 6.2577 31.503 7.29072 30.8499 7.76522L28.5164 9.46059C28.2244 9.67279 28.1021 10.0489 28.2137 10.3923L29.105 13.1354C29.3545 13.9032 28.4757 14.5416 27.8226 14.0671L25.4892 12.3718C25.1971 12.1596 24.8016 12.1596 24.5095 12.3718L22.1761 14.0671C21.523 14.5416 20.6442 13.9032 20.8937 13.1354L21.785 10.3923C21.8966 10.0489 21.7743 9.67279 21.4823 9.46059L19.1488 7.76522C18.4957 7.29072 18.8313 6.2577 19.6386 6.2577H22.5229C22.884 6.2577 23.2039 6.02524 23.3155 5.68188L24.2068 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M40.8748 2.93872C41.1242 2.17096 42.2104 2.17096 42.4599 2.93872L43.3512 5.68188C43.4627 6.02524 43.7827 6.2577 44.1437 6.2577H47.028C47.8353 6.2577 48.171 7.29072 47.5179 7.76522L45.1844 9.46059C44.8923 9.67279 44.7701 10.0489 44.8817 10.3923L45.773 13.1354C46.0224 13.9032 45.1437 14.5416 44.4906 14.0671L42.1571 12.3718C41.8651 12.1596 41.4696 12.1596 41.1775 12.3718L38.844 14.0671C38.1909 14.5416 37.3122 13.9032 37.5617 13.1354L38.453 10.3923C38.5645 10.0489 38.4423 9.67279 38.1502 9.46059L35.8168 7.76522C35.1637 7.29072 35.4993 6.2577 36.3066 6.2577H39.1909C39.5519 6.2577 39.8719 6.02524 39.9835 5.68188L40.8748 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M57.5408 2.93872C57.7902 2.17096 58.8764 2.17096 59.1259 2.93872L60.0172 5.68188C60.1287 6.02524 60.4487 6.2577 60.8097 6.2577H63.6941C64.5013 6.2577 64.837 7.29072 64.1839 7.76522L61.8504 9.46059C61.5583 9.67279 61.4361 10.0489 61.5477 10.3923L62.439 13.1354C62.6885 13.9032 61.8097 14.5416 61.1566 14.0671L58.8232 12.3718C58.5311 12.1596 58.1356 12.1596 57.8435 12.3718L55.51 14.0671C54.8569 14.5416 53.9782 13.9032 54.2277 13.1354L55.119 10.3923C55.2305 10.0489 55.1083 9.67279 54.8163 9.46059L52.4828 7.76522C51.8297 7.29072 52.1653 6.2577 52.9726 6.2577H55.8569C56.218 6.2577 56.5379 6.02524 56.6495 5.68188L57.5408 2.93872Z"
+                                    fill="#FCB547" />
+                                <path
+                                    d="M74.2068 2.93872C74.4563 2.17096 75.5424 2.17096 75.7919 2.93872L76.6832 5.68188C76.7948 6.02524 77.1147 6.2577 77.4757 6.2577H80.3601C81.1674 6.2577 81.503 7.29072 80.8499 7.76522L78.5164 9.46059C78.2244 9.67279 78.1021 10.0489 78.2137 10.3923L79.105 13.1354C79.3545 13.9032 78.4757 14.5416 77.8226 14.0671L75.4892 12.3718C75.1971 12.1596 74.8016 12.1596 74.5095 12.3718L72.1761 14.0671C71.523 14.5416 70.6442 13.9032 70.8937 13.1354L71.785 10.3923C71.8966 10.0489 71.7743 9.67279 71.4823 9.46059L69.1488 7.76522C68.4957 7.29072 68.8313 6.2577 69.6386 6.2577H72.5229C72.884 6.2577 73.2039 6.02524 73.3155 5.68188L74.2068 2.93872Z"
+                                    fill="#FCB547" />
+                            </svg>
+                        </p>
+                        <p class="hero-rating text_xxs">Based on 145 reviews</p>
+                    </div>
+                </div>
+                <img src="assets/images/hero1.png" alt="hero1">
+                <img src="assets/images/hero2.png" alt="hero2">
+            </div>
+
+        </div>
+    </section>
+    <!------------accordion ------------------->
+    <section class="min-vh-100 py-5 ">
+        <div class="container">
+            <h1 class="accordion-heading text_2lg">Frequently Asked Questions</h1>
+            <p class="accordion-pera text_md">Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt<br>
+                primasofi
+                dede facebooka: förutom tivaligt. Fejkade</p>
+            <div class="accordion accordion-flush mt-52 mw-912 mx-auto" id="accordionFlushExample">
+                <div class="accordion-item mb-4 b-none back-white ">
+                    <h2 class="accordion-header " id="flush-headingOne">
+                        <button
+                            class="accordion-button collapsed accordion-text text_md bg-white  back-white shadow-none icon-btn"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                            aria-expanded="false" aria-controls="flush-collapseOne">
+                            Lörem ipsum koda astrobel: sutaveligen.
+                        </button>
+
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordion-text text_md ">Placeholder content for this accordion,
+                            which is
+                            intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-4 b-none  back-white">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button
+                            class="accordion-button collapsed accordion-text text_md back-white bg-white shadow-none icon-btn"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Rodod bänera viliga
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text_md accordion-text">Placeholder content for this accordion, which
+                            is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                            this being
+                            filled with some actual content.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-4 b-none  back-white">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button
+                            class="accordion-button collapsed accordion-text text_md  back-white bg-white shadow-none icon-btn"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                            aria-expanded="false" aria-controls="flush-collapseThree">
+                            Pregigt primasofi dede facebooka: förutom
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body text_md accordion-text ">Placeholder content for this accordion,
+                            which is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-4 b-none  back-white">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button
+                            class="accordion-button collapsed accordion-text text_md back-white bg-white shadow-none icon-btn"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                            aria-expanded="false" aria-controls="flush-collapseFour">
+                            Ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordion-text text_md">Placeholder content for this accordion, which
+                            is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item mb-4 b-none  back-white">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button
+                            class="accordion-button collapsed accordion-text  text_md back-white bg-white shadow-none icon-btn"
+                            type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                            aria-expanded="false" aria-controls="flush-collapseFive">
+                            Rodod bänera viliga. Pregigt primasofi dede facebooka
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body accordion-text text_md">Placeholder content for this accordion, which
+                            is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------footer --------------------->
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row justify-content-between mb-5">
+                <div class="col-lg-4 col-12">
+                    <img src="assets/images/footerlogo.png" alt="logo">
+                    <div class="d-flex gap-10 mt-4">
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M16.939 3C18.28 3 19.57 3.53 20.519 4.481C21.469 5.43 22 6.71 22 8.05V15.95C22 18.74 19.73 21 16.939 21H7.06C4.269 21 2 18.74 2 15.95V8.05C2 5.26 4.259 3 7.06 3H16.939ZM18.07 8.2C17.86 8.189 17.66 8.26 17.509 8.4L13 12C12.42 12.481 11.589 12.481 11 12L6.5 8.4C6.189 8.17 5.759 8.2 5.5 8.47C5.23 8.74 5.2 9.17 5.429 9.47L5.56 9.6L10.11 13.15C10.67 13.59 11.349 13.83 12.06 13.83C12.769 13.83 13.46 13.59 14.019 13.15L18.53 9.54L18.61 9.46C18.849 9.17 18.849 8.75 18.599 8.46C18.46 8.311 18.269 8.22 18.07 8.2Z"
+                                    fill="#FF0000" />
+                            </svg>
+                        </a>
+                        <a href="mailto:help@Dealzip.com" class="mail text_sm">help@Dealzip.com</a>
+                    </div>
+                    <div class="d-flex gap-10 mt-3">
+                        <a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11.5317 12.4724C15.5208 16.4604 16.4258 11.8467 18.9656 14.3848C21.4143 16.8328 22.8216 17.3232 19.7192 20.4247C19.3306 20.737 16.8616 24.4943 8.1846 15.8197C-0.493478 7.144 3.26158 4.67244 3.57397 4.28395C6.68387 1.17385 7.16586 2.58938 9.61449 5.03733C12.1544 7.5765 7.54266 8.48441 11.5317 12.4724Z"
+                                    fill="#FF0000" />
+                            </svg>
+                        </a>
+                        <a href="tel:+1 234 456 678 89" class="mail text_sm">+1 234 456 678 89</a>
+                    </div>
+                    <div class="d-flex gap-10 mt-4 mb-4">
+                        <div class="red-circle">
+                            <a href="https://www.facebook.com/"> <svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_71101_232)">
+                                        <path
+                                            d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47 14 5.5 16 5.5H17.5V2.14C17.174 2.097 15.943 2 14.643 2C11.928 2 10 3.657 10 6.7V9.5H7V13.5H10V22H14V13.5Z"
+                                            fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_71101_232">
+                                            <rect width="24" height="24" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="red-circle">
+                            <a href="https://www.instagram.com/"><svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.0286 2C14.1536 2.003 14.7246 2.009 15.2176 2.023L15.4116 2.03C15.6356 2.038 15.8566 2.048 16.1236 2.06C17.1876 2.11 17.9136 2.278 18.5506 2.525C19.2106 2.779 19.7666 3.123 20.3226 3.678C20.8311 4.1779 21.2245 4.78259 21.4756 5.45C21.7226 6.087 21.8906 6.813 21.9406 7.878C21.9526 8.144 21.9626 8.365 21.9706 8.59L21.9766 8.784C21.9916 9.276 21.9976 9.847 21.9996 10.972L22.0006 11.718V13.028C22.003 13.7574 21.9954 14.4868 21.9776 15.216L21.9716 15.41C21.9636 15.635 21.9536 15.856 21.9416 16.122C21.8916 17.187 21.7216 17.912 21.4756 18.55C21.2253 19.2178 20.8317 19.8226 20.3226 20.322C19.8225 20.8303 19.2179 21.2238 18.5506 21.475C17.9136 21.722 17.1876 21.89 16.1236 21.94C15.8863 21.9512 15.649 21.9612 15.4116 21.97L15.2176 21.976C14.7246 21.99 14.1536 21.997 13.0286 21.999L12.2826 22H10.9736C10.2438 22.0025 9.5141 21.9949 8.78458 21.977L8.59058 21.971C8.35319 21.962 8.11585 21.9517 7.87858 21.94C6.81458 21.89 6.08858 21.722 5.45058 21.475C4.78325 21.2244 4.17879 20.8308 3.67958 20.322C3.17062 19.8223 2.7768 19.2176 2.52558 18.55C2.27858 17.913 2.11058 17.187 2.06058 16.122C2.04944 15.8847 2.03944 15.6474 2.03058 15.41L2.02558 15.216C2.00715 14.4868 1.99881 13.7574 2.00058 13.028V10.972C1.99779 10.2426 2.00512 9.5132 2.02258 8.784L2.02958 8.59C2.03758 8.365 2.04758 8.144 2.05958 7.878C2.10958 6.813 2.27758 6.088 2.52458 5.45C2.77569 4.7819 3.1703 4.17702 3.68058 3.678C4.17967 3.16947 4.78372 2.77599 5.45058 2.525C6.08858 2.278 6.81358 2.11 7.87858 2.06C8.14458 2.048 8.36658 2.038 8.59058 2.03L8.78458 2.024C9.51377 2.00623 10.2432 1.99857 10.9726 2.001L13.0286 2ZM12.0006 7C10.6745 7 9.40273 7.52678 8.46504 8.46447C7.52736 9.40215 7.00058 10.6739 7.00058 12C7.00058 13.3261 7.52736 14.5979 8.46504 15.5355C9.40273 16.4732 10.6745 17 12.0006 17C13.3267 17 14.5984 16.4732 15.5361 15.5355C16.4738 14.5979 17.0006 13.3261 17.0006 12C17.0006 10.6739 16.4738 9.40215 15.5361 8.46447C14.5984 7.52678 13.3267 7 12.0006 7ZM12.0006 9C12.3945 8.99993 12.7847 9.07747 13.1487 9.22817C13.5127 9.37887 13.8434 9.5998 14.122 9.87833C14.4007 10.1569 14.6217 10.4875 14.7725 10.8515C14.9233 11.2154 15.001 11.6055 15.0011 11.9995C15.0011 12.3935 14.9236 12.7836 14.7729 13.1476C14.6222 13.5116 14.4013 13.8423 14.1228 14.121C13.8442 14.3996 13.5135 14.6206 13.1496 14.7714C12.7856 14.9223 12.3955 14.9999 12.0016 15C11.2059 15 10.4429 14.6839 9.88026 14.1213C9.31765 13.5587 9.00158 12.7956 9.00158 12C9.00158 11.2044 9.31765 10.4413 9.88026 9.87868C10.4429 9.31607 11.2059 9 12.0016 9M17.2516 5.5C16.9201 5.5 16.6021 5.6317 16.3677 5.86612C16.1333 6.10054 16.0016 6.41848 16.0016 6.75C16.0016 7.08152 16.1333 7.39946 16.3677 7.63388C16.6021 7.8683 16.9201 8 17.2516 8C17.5831 8 17.901 7.8683 18.1355 7.63388C18.3699 7.39946 18.5016 7.08152 18.5016 6.75C18.5016 6.41848 18.3699 6.10054 18.1355 5.86612C17.901 5.6317 17.5831 5.5 17.2516 5.5Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="red-circle">
+                            <a href="https://x.com/?lang=en"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.7506 8.55171L18.6 0.589844H16.9769L11.0296 7.50304L6.27948 0.589844H0.800781L7.98388 11.0438L0.800781 19.3931H2.42397L8.70452 12.0925L13.721 19.3931H19.1997L11.7502 8.55171H11.7506ZM3.00881 1.81176H5.50191L16.9777 18.2267H14.4846L3.00881 1.81176Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 0C7.16479 0 0 7.16479 0 16C0 24.8352 7.16479 32 16 32C24.8352 32 32 24.8352 32 16C32 7.16479 24.8352 0 16 0ZM11.3506 24.1875H7.45386V12.4641H11.3506V24.1875ZM9.40234 10.8633H9.37695C8.06934 10.8633 7.22363 9.96313 7.22363 8.83813C7.22363 7.68774 8.09521 6.8125 9.42822 6.8125C10.7612 6.8125 11.5815 7.68774 11.6069 8.83813C11.6069 9.96313 10.7612 10.8633 9.40234 10.8633ZM25.4014 24.1875H21.5051V17.9158C21.5051 16.3396 20.9409 15.2646 19.531 15.2646C18.4546 15.2646 17.8135 15.9897 17.5317 16.6897C17.4287 16.9402 17.4036 17.2903 17.4036 17.6406V24.1875H13.5071C13.5071 24.1875 13.5581 13.564 13.5071 12.4641H17.4036V14.124C17.9214 13.3252 18.8479 12.189 20.9153 12.189C23.479 12.189 25.4014 13.8645 25.4014 17.4653V24.1875Z"
+                                        fill="#FF0000" />
+                                </svg>
+
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-12">
+                    <div class="row justify-content-between">
+                        <div class="col-sm-2">
+                            <ul class="list-unstyled">
+                                <li class="footer-mainlinks text_2md">links</li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">home</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">about us</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">Services</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">Showcase</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 col-12">
+                            <ul class="list-unstyled">
+                                <li class="footer-mainlinks text_2md">legal</li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">terms of use</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">privacy policy</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">cookie policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-2 col-12">
+                            <ul class="list-unstyled">
+                                <li class="footer-mainlinks text_2md">product</li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">take tour</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">live chat</a></li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">reveiws</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xl-5 col-12">
+                            <ul class="list-unstyled ">
+                                <li class="footer-mainlinks text_2md ">Newsletter</li>
+                                <li class="mb-3"><a href="" class="footer-links text_sm">Stay up to date</a></li>
+                            </ul>
+                            <label for="email" class="d-flex border-r footer-label">
+                                <input type=" email" placeholder=" your email" id=" email" class="email text_sm">
+                                <button class="footerbtn text_sm">Subscribe</button>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="border_bottom"></div>
+        <p class="footer_text py-3 text_sm">Copyright 2024 ceramicsolutions.com all rights reserved</p>
+    </footer>
+
+
+
+    <!---------------------------accordion end ---------------->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
