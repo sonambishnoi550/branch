@@ -323,6 +323,7 @@
     color: #81848A;
     border: none;
     width: 100%;
+    outline: none;
 }
 
 .border-r {
