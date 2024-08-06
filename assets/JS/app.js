@@ -1,4 +1,4 @@
-$('.variable-width').slick({
+$('.slick-slider').slick({
     dots:false,
     infinite: true,
     speed: 200,
