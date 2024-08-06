@@ -190,12 +190,12 @@
     color: #000000;
 }
 
-.Card {
+.Card1 {
     padding: 24px;
     border-radius: 24px;
 }
 
-.Card:hover {
+.Card1:hover {
     box-shadow: 0px 0px 12px 3px #B6B6B640;
 }
 
@@ -421,7 +421,7 @@
     height: 48px;
 }
 
-.card-heading {
+.card-head {
     font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 24px;
     font-weight: 600;
