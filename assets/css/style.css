@@ -183,7 +183,6 @@
 /* -------------------hero end ----------------- */
 .heading {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 56px;
     font-weight: 600;
     line-height: 70.56px;
     text-align: center;
@@ -205,7 +204,6 @@
 
 .card-heading {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 24px;
     font-weight: 600;
     line-height: 38.4px;
     text-align: left;
@@ -216,7 +214,6 @@
 
 .card-text {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
     text-align: left;
@@ -225,7 +222,6 @@
 
 .learn-more {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 16px;
     font-weight: 600;
     line-height: 25.6px;
     text-align: left;
@@ -239,9 +235,8 @@
     background: rgba(255, 235, 235, 1);
 }
 
-.heading {
+.card-image .heading {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 56px;
     font-weight: 600;
     line-height: 70.56px;
     text-align: left;
@@ -250,7 +245,6 @@
 
 .card-text {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
     text-align: left;
@@ -269,7 +263,6 @@
 
 .sub-heading {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
     font-weight: 600;
     line-height: 32px;
     text-align: left;
@@ -316,7 +309,6 @@
 
 .card-btn {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 18px;
     font-weight: 700;
     line-height: 22.68px;
     text-align: left;
@@ -423,7 +415,6 @@
 
 .card-head {
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 24px;
     font-weight: 600;
     line-height: 38.4px;
     text-align: left;
@@ -432,6 +423,9 @@
 
 .p-24 {
     padding: 24px;
+}
+.text-align-left{
+    text-align: left;
 }
 
 /* -----------------choose end ----------------- */
@@ -462,7 +456,6 @@
 /*--------------------customer section---------------------*/
 .main-para {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 18px;
     font-weight: 400;
     line-height: 28.8px;
     text-align: center;
@@ -489,7 +482,6 @@
 
 .hero-rating {
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
     font-weight: 400;
     line-height: 19.2px;
     text-align: left;
@@ -499,7 +491,6 @@
 
 .hero-review {
     font-family: 'Manrope', sans-serif;
-    font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     text-align: left;
@@ -513,7 +504,6 @@
 
 .card-line {
     font-family: 'Manrope', sans-serif;
-    font-size: 14px;
     font-weight: 400;
     line-height: 22.4px;
     text-align: left;
@@ -523,7 +513,6 @@
 
 .card-para {
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
     font-weight: 400;
     line-height: 25.6px;
     text-align: left;
@@ -907,17 +896,14 @@
     }
 
     .heading {
-        font-size: 32px;
         line-height: 42px;
     }
 
     .card-text {
-        font-size: 16px;
         line-height: 25.8px;
     }
 
     .sub-heading {
-        font-size: 18px;
         line-height: 15px;
     }
 
@@ -940,10 +926,10 @@
     .white-Card {
         margin-bottom: 0;
     }
-
-    .heading {
-        font-size: 40px;
+    .footerbtn{
+        padding: 10px 17px;
     }
+
 
 }
 
@@ -988,17 +974,14 @@
     }
 
     .heading {
-        font-size: 40px;
         line-height: 47px;
     }
 
     .card-text {
-        font-size: 18px;
         line-height: 27.8px;
     }
 
     .sub-heading {
-        font-size: 20px;
         line-height: 17px;
     }
 
