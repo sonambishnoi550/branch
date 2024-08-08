@@ -13,7 +13,7 @@
 }
 
 .nav-link:hover {
-    color: #FF0000;
+    color: #FF0000 !important;
 }
 
 .nav-link::after {
@@ -702,22 +702,6 @@
 
 .footer-links:hover {
     color: #FF0000;
-}
-
-.footer-links::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 0;
-    height: 2px;
-    transition: all 100ms linear;
-    background-color: #FF0000 !important;
-}
-
-.footer-links:hover::after {
-    width: 100%;
-    left: 0;
 }
 
 .footer-btn {
