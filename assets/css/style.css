@@ -644,7 +644,7 @@
 }
 
 .icon-btn::after {
-    background-image: url(../images/svg/svg) !important;
+    background-image: url(../images/svg/accordion.svg) !important;
     margin-left: auto;
     background-position: center;
 }
