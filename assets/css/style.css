@@ -27,6 +27,14 @@
     background-color: #FF0000 !important;
 }
 
+.fixed {
+    position: fixed;
+    z-index: 7;
+    top: 24px;
+    width: 1140px;
+
+}
+
 .nav-link:hover::after {
     width: 100%;
     left: 0;
@@ -94,6 +102,7 @@
     color: white !important;
     max-width: 830px;
     padding-bottom: 20px;
+    padding-top: 72px;
 }
 
 .py-72 {
@@ -348,7 +357,7 @@
 }
 
 .like-card:hover .like-animation {
-   animation: like 0.5s 1;
+    animation: like 0.5s 1;
     fill: red;
     stroke: none;
 }
@@ -417,7 +426,8 @@
 .p-24 {
     padding: 24px;
 }
-.text-align-left{
+
+.text-align-left {
     text-align: left;
 }
 
@@ -895,7 +905,8 @@
     .white-Card {
         margin-bottom: 0;
     }
-    .footer-btn{
+
+    .footer-btn {
         padding: 10px 17px;
     }
 }
