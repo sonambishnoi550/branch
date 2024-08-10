@@ -27,13 +27,6 @@
     background-color: #FF0000 !important;
 }
 
-.fixed {
-    position: fixed;
-    z-index: 7;
-    top: 24px;
-    width: 1140px;
-
-}
 
 .nav-link:hover::after {
     width: 100%;
